@@ -1,11 +1,19 @@
 {
-  "name": "typescript-homework-module-2",
+  "name": "typescript-tasks",
   "version": "1.0.0",
-  "description": "",
+  "description": "Робота з базовими типами TypeScript",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.3.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
   }
 }
