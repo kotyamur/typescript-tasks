@@ -7,7 +7,7 @@ type Pages = {
   likes: number;
   accounts: string[];
   status: "open" | "close";
-  details?: {};
+  details?: {}; //є опціональною властивістю
 };
 
 const page1: Pages = {
